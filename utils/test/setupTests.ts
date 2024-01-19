@@ -8,3 +8,5 @@ afterEach(() => {
 afterAll(() => {
   vi.resetAllMocks();
 });
+
+vi.mock('zustand');
