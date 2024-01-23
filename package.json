@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
-    "zustand": "^4.4.7"
+    "zustand": "^4.5.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.10",
