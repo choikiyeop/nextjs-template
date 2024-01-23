@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 import { MSWComponent } from './_components/MSWComponent';
 import { ReactQueryProvider } from './_components/ReactQueryProvider';
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ['latin'],
   variable: '--font-sans',
 });
