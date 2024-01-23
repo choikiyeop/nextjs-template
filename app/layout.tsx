@@ -3,6 +3,7 @@ import { Inter as FontSans } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { MSWComponent } from './_components/MSWComponent';
+import { ReactQueryProvider } from './_components/ReactQueryProvider';
 
 export const fontSans = FontSans({
   subsets: ['latin'],
@@ -19,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ko">
       <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>
         <MSWComponent />
-        {children}
+        <ReactQueryProvider>{children}</ReactQueryProvider>
       </body>
     </html>
   );
