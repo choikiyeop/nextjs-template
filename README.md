@@ -54,7 +54,7 @@ npm run storybook
 
 ### msw
 
-- [msw](https://mswjs.io/docs/getting-started) v2.1.3
+- [msw](https://mswjs.io/docs/getting-started) v2.1.5
 
 ### react-query
 
